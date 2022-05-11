@@ -278,9 +278,53 @@ for (let count = 1; count < 11; count +1)
 for (let i = 0; i<6; i+=1){
     console.log(i)
 }
-for (let i=10; i<101;)
+for (let i=10; i<101;);
 
 
+// Create a for loop that counts from 10 to 100 in steps of 10
+// Use console.log to log out the numbers
+for (let i = 10; i < 100; i +=10){
+    console.log(i)
+}
+
+for (let i= 10;i < 100; i += 10){
+
+}
+
+let messages = [
+    "Hey, how's it going?",        
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately.",
+    "Same here!"
+]
+// solution1
+console.log(messages[0])
+console.log(messages[1])
+console.log(messages[2])
+console.log(messages[3])
+
+// solution2
+for (let i = 0; i <5; i+=1){
+    // or
+    for (let i = 0; 1 < messages;1+=1)
+    console.log(i)
+    console.log([i]) //get by index
+    console.log()   
+}
+// Create a for loop that logs out all the cards in the array
+// Use cards.length to specify how long the loop should run
+let cardz = [7, 3, 9]
+for (let i=0; i<cards.length;1++){
+    console.log(cards[i])
+}
+let sentence = ["hello", "my","name" ,"is","Per"]
+let greetingEL = Document.getElementById(greeting-el)
+ for (let  i=0; 1 < sentence.length; i++){
+     greeting.textContent += sentence[i] + " "
+     console.log(sentence)
+ } 
+
+ 
 
 
 
